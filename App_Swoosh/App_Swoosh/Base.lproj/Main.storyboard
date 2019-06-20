@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="cFv-x8-dbA">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1009"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="cFv-x8-dbA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="gLf-a4-axa">
                                 <rect key="frame" x="101" y="19" width="213" height="82"/>
@@ -58,6 +57,13 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="cFv-x8-dbA" secondAttribute="bottom" id="2Eb-7D-cML"/>
+                            <constraint firstItem="cFv-x8-dbA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ax4-d1-aMB"/>
+                            <constraint firstItem="cFv-x8-dbA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HDo-Zl-aYN"/>
+                            <constraint firstItem="cFv-x8-dbA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Zp2-93-WBG"/>
+                            <constraint firstItem="cFv-x8-dbA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="g15-59-Uly"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
