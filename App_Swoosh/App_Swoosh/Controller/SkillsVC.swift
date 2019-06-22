@@ -9,7 +9,7 @@
 import UIKit
 
 class SkillsVC: UIViewController {
-
+    var player: Player!;
     override func viewDidLoad() {
         super.viewDidLoad()
 
